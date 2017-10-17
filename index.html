@@ -6,7 +6,7 @@
 
 		<title>Maria Magallon</title>
 		<!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,600,800' rel='stylesheet' type='text/css'> -->
-		<link href="https://fonts.googleapis.com/css?family=Cookie|Niconne" rel="stylesheet" type='text/css'>
+		<link href="https://fonts.googleapis.com/css?family=Niconne" rel="stylesheet" type='text/css'>
 
 		<!-- external CSS link -->
 		<link rel="stylesheet" href="css/reset.css">
@@ -20,217 +20,211 @@
 					July 8, 1932- July 22, 2017</h1>
 				<img src="images/abuelita.jpg" alt="photo of Abuelita">
 				<h2>Abuelita's Family</h2>
-				<button type="button">My Entire Family</button>
-				<button type="button">Children</button>
-				<button type="button">Grandchildren</button>
-				<button type="button">Great-Grandchildren</button>
+				<button type="button" id="button-family">My Entire Family</button>
+				<button type="button" id="button-children">Children</button>
+				<button type="button" id="button-grandchildren">Grandchildren</button>
+				<button type="button" id="button-great-grandchildren">Great-Grandchildren</button>
 			</div>
 		</header>
 		<section id="main">
 			<div class="flex-container-l1">
-				<div class="flex-container-family">
-					<img src="images/eliseo.jpg" alt="photo of eliseo">
-					<p>Eliseo</p>
-					<button type="button">My Family</button>
+				<div class="flex-container-family eliseo clearfix">
+					<div class="sibling">
+						<img src="images/eliseo.jpg" alt="photo of eliseo">
+						<p>Eliseo</p>
+					</div>
+					<button type="button" class="sibling" id="button-eliseo">My Family</button>
 					<div class="flex-container-children">
-						<div>
+						<div class="child">
 							<img src="images/frank.jpg" alt="photo of frank">
 							<p>Frank</p>
 						</div>
-						<div>
+						<div class="child">
 							<img src="images/leo.jpg" alt="photo of leo">
 							<p>Leo</p>
 						</div>
 						<div class="flex-container-grandchildren">
-							<div>
+							<div class="child">
 								<img src="images/chris.jpg" alt="photo of chris">
 								<p>Chris</p>
 							</div>
 							<div class="flex-container-grandchild">
-								<div>
+								<div class="grandchild">
 								<img src="images/amia.jpg" alt="photo of amia">
 								<p>Amia</p>
 								</div>
 							</div>
 						</div>
-						<div>
+						<div class="child">
 							<img src="images/sonia.jpg" alt="photo of sonia">
 							<p>Sonia</p>
 						</div>
-						<div>
+						<div class="child">
 							<img src="images/bryan.jpg" alt="photo of bryan">
 							<p>Bryan</p>
 						</div>
 					</div>
 				</div>
-				<div class="flex-container-family">
-					<img src="images/enrique.jpg" alt="photo of enrique">
-					<p>Enrique</p>
-					<button type="button">My Family</button>
+				<div class="flex-container-family enrique">
+					<div class="sibling">
+						<img src="images/enrique.jpg" alt="photo of enrique">
+						<p>Enrique</p>
+					</div>
+					<button type="button" class="sibling" id="button-enrique">My Family</button>
 					<div class="flex-container-children">
-						<img src="images/nancy.jpg" alt="photo of nancy">
-						<p>Nancy</p>
-						<img src="images/yesenia.jpg" alt="photo of yesenia">
-						<p>Yesenia</p>
+						<div class="child">
+							<img src="images/nancy.jpg" alt="photo of nancy">
+							<p>Nancy</p>
+						</div>
+						<div class="child">
+							<img src="images/yesenia.jpg" alt="photo of yesenia">
+							<p>Yesenia</p>
+						</div>
 					</div>
 				</div>
-				<div class="flex-container-family">
-					<img src="images/meno.jpg" alt="photo of meno">
-					<p>Meno</p>
-					<button type="button">My Family</button>
+				<div class="flex-container-family meno">
+					<div class="sibling">
+						<img src="images/meno.jpg" alt="photo of meno">
+						<p>Meno</p>
+					</div>
+					<button type="button" class="sibling" id="button-meno">My Family</button>
 					<div class="flex-container-children">
 						<div class="flex-container-grandchildren">
-							<div>
+							<div class="child">
 								<img src="images/mike.jpg" alt="photo of mike">
 								<p>Mike</p>
 							</div>
 							<div class="flex-container-grandchild">
-								<div>
-								<img src="images/emily.jpg" alt="photo of emily">
-								<p>Emily</p>
+								<div class="grandchild">
+									<img src="images/emily.jpg" alt="photo of emily">
+									<p>Emily</p>
 								</div>
-								<div>
-								<img src="images/valeria.jpg" alt="photo of valeria">
-								<p>Valeria</p>
+								<div class="grandchild">
+									<img src="images/valeria.jpg" alt="photo of valeria">
+									<p>Valeria</p>
 								</div>
 							</div>
 						</div>
 						<div class="flex-container-grandchildren">
-							<div>
+							<div class="child">
 								<img src="images/luddy.jpg" alt="photo of luddy">
 								<p>Luddy</p>
 							</div>
 							<div class="flex-container-grandchild">
-								<div>
-								<img src="images/jaxon.jpg" alt="photo of Jaxon">
-								<p>Jaxon</p>
+								<div class="grandchild">
+									<img src="images/jaxon.jpg" alt="photo of Jaxon">
+									<p>Jaxon</p>
 								</div>
 							</div>
 						</div>
 						<div class="flex-container-grandchildren">
-							<div>
+							<div class="child">
 								<img src="images/pam.jpg" alt="photo of pam">
 								<p>Pam</p>
 							</div>
 							<div class="flex-container-grandchild">
-								<div>
-								<img src="images/alexandra.jpg" alt="photo of Alexandra">
-								<p>Alexandra</p>
+								<div class="grandchild">
+									<img src="images/alexandra.jpg" alt="photo of Alexandra">
+									<p>Alexandra</p>
 								</div>
 							</div>
 						</div>
-						<img src="images/sara.jpg" alt="photo of sara">
-						<p>Sara</p>
+						<div class="child">				
+							<img src="images/sara.jpg" alt="photo of sara">
+							<p>Sara</p>
+						</div>
 					</div>
 				</div>
-				<div class="flex-container-family">
-					<img src="images/ludy.jpg" alt="photo of ludy">
-					<p>Ludy</p>
-					<button type="button">My Family</button>
+				<div class="flex-container-family ludy">
+					<div class="sibling">
+						<img src="images/ludy.jpg" alt="photo of ludy">
+						<p>Ludy</p>
+					</div>
+					<button type="button" class="sibling" id="button-ludy">My Family</button>
 					<div class="flex-container-children">
-						<img src="images/serjio.jpg" alt="photo of serjio">
-						<p>Serjio</p>
-						<img src="images/erick.jpg" alt="photo of erick">
-						<p>Erick</p>
+						<div class="child">
+							<img src="images/serjio.jpg" alt="photo of serjio">
+							<p>Serjio</p>
+						</div>
+						<div class="child">
+							<img src="images/erick.jpg" alt="photo of erick">
+							<p>Erick</p>
+						</div>
 					</div>
 				</div>
-				<div class="flex-container-family">
-					<img src="images/patricia.jpg" alt="photo of patricia">
-					<p>Patricia</p>
-					<button type="button">My Family</button>
+				<div class="flex-container-family patricia">
+					<div class="sibling">
+						<img src="images/patricia.jpg" alt="photo of patricia">
+						<p>Patricia</p>
+					</div>
+					<button type="button" class="sibling" id="button-patricia">My Family</button>
 					<div class="flex-container-children">
-						<img src="images/richie.jpg" alt="photo of richie">
-						<p>Richie</p>
-						<img src="images/ryan.jpg" alt="photo of ryan">
-						<p>Ryan</p>
-						<img src="images/steve.jpg" alt="photo of steve">
-						<p>Steve</p>
-						<img src="images/david.jpg" alt="photo of david">
-						<p>David</p>
+						<div class="child">
+							<img src="images/richie.jpg" alt="photo of richie">
+							<p>Richie</p>
+						</div>
+						<div class="child">
+							<img src="images/ryan.jpg" alt="photo of ryan">
+							<p>Ryan</p>
+						</div>
+						<div class="child">
+							<img src="images/steve.jpg" alt="photo of steve">
+							<p>Steve</p>
+						</div>
+						<div class="child">
+							<img src="images/david.jpg" alt="photo of david">
+							<p>David</p>
+						</div>
 					</div>
 				</div>
-				<div class="flex-container-family">
-					<img src="images/dino.jpg" alt="photo of dino">
-					<p>Dino</p>
-					<button type="button">My Family</button>
+				<div class="flex-container-family dino">
+					<div class="sibling">
+						<img src="images/dino.jpg" alt="photo of dino">
+						<p>Dino</p>
+					</div>
+					<button type="button" class="sibling" id="button-dino">My Family</button>
 					<div class="flex-container-children">
 						<div class="flex-container-grandchildren">
-							<div>
+							<div class="child">
 								<img src="images/ricky.jpg" alt="photo of ricky">
 								<p>Ricky</p>
 							</div>
 							<div class="flex-container-grandchild">
-								<div>
-								<img src="images/alex.jpg" alt="photo of Alex">
-								<p>Alex</p>
+								<div class="grandchild">
+									<img src="images/alex.jpg" alt="photo of Alex">
+									<p>Alex</p>
 								</div>
 							</div>
 						</div>
-						<img src="images/matt.jpg" alt="photo of matt">
-						<p>Matt</p>
-						<img src="images/jessi.jpg" alt="photo of jessi">
-						<p>Jessi</p>
+						<div class="child">
+							<img src="images/matt.jpg" alt="photo of matt">
+							<p>Matt</p>
+						</div>
+						<div class="child">
+							<img src="images/jessi.jpg" alt="photo of jessi">
+							<p>Jessi</p>
+						</div>
 					</div>
 				</div>
-				<div class="flex-container-family">
-					<img src="images/rudy.jpg" alt="photo of rudy">
-					<p>Rudy</p>
-					<button type="button">My Family</button>
+				<div class="flex-container-family rudy">
+					<div class="sibling">
+						<img src="images/rudy.jpg" alt="photo of rudy">
+						<p>Rudy</p>
+					</div>
+					<button type="button" class="sibling" id="button-rudy">My Family</button>
 					<div class="flex-container-children">
-						<img src="images/chloe.jpg" alt="photo of chloe">
-						<p>Chloe</p>
-						<img src="images/callista.jpg" alt="photo of callista">
-						<p>Callista</p>
+						<div class="child">
+							<img src="images/chloe.jpg" alt="photo of chloe">
+							<p>Chloe</p>
+						</div>
+						<div class="child">
+							<img src="images/callista.jpg" alt="photo of callista">
+							<p>Callista</p>
+						</div>
 					</div>
 				</div>
-			</div>
-				<!-- <section id="posts">
-					<article class="post">
-						<h2><a href="#">How I implemented Relaxr in 2 weeks and changed my life.</a></h2>
-						<img src="images/blog_photo1.jpg" alt="Crew Meet">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce varius augue nec metus viverra interdum. Sed in gravida lectus. Pellentesque habitant morbi tristique senectus et netu et malesuada fames ac turpis egestas. Mauris ut vulputate nisl.  Maecenas quis auctor dui. Ut porta aliquam lorem, at volutpat orci commodo a. Suspendisse nunc orci, porttitor ac sapien a, rutrum porttitor odio. Phasellus faucibus tristique orci eget dictum. Proin tincidunt vehicula leo sed mattis. Nunc faucibus augue a pellentesque tristique. Proin suscipit in dui ut convallis.</p>
-
-						<p class="readmore"><a href="#">Read more &gt;</a></p>
-						<p class="hide" id="show-this-on-click">Maecenas quis auctor dui. Ut porta aliquam lorem, at volutpat orci commodo a. Suspendisse nunc orci, porttitor ac sapien a, rutrum porttitor odio. Phasellus faucibus tristique orci eget dictum. Proin tincidunt vehicula leo sed mattis. Nunc faucibus augue a pellentesque tristique. Proin suscipit in dui ut convallis.</p>
-						<p class="readless hide"><a href="#">Read less &gt;</a></p>
-					</article>
-					<article class="post">
-						<h2><a href="#">I traveled across the globe thanks to Relaxr’s Excel auomation</a></h2>
-						<img src="images/blog_photo2.jpg" alt="Canoes">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce varius augue nec metus viverra interdum. Sed in gravida lectus. Pellentesque habitant morbi tristique senectus et netu et malesuada fames ac turpis egestas. Mauris ut vulputate nisl.  Maecenas quis auctor dui. Ut porta aliquam lorem, at volutpat orci commodo a. Suspendisse nunc orci, porttitor ac sapien a, rutrum porttitor odio. Phasellus faucibus tristique orci eget dictum. Proin tincidunt vehicula leo sed mattis. Nunc faucibus augue a pellentesque tristique. Proin suscipit in dui ut convallis.</p>
-
-					</article>
-				</section>
-	<!-- 		<aside id="sidebar">
-					<h3>Categories</h3>
-					<ul>
-						<li><a href="#">Success stories</a></li>
-						<li><a href="#">Stats</a></li>
-						<li><a href="#">How tos</a></li>
-						<li><a href="#">Best of</a></li>
-						<li><a href="#">Business tips</a></li>
-					</ul>
-					<h3>About Relaxr</h3>
-					<p>Proin sed justo vel sapien varius auctor. Proin scelerisque massa at luctus tincidunt. Fusce porttitor, sapien sed tincidunt fringilla.<br>
-					<a href="#" class="learnmore">Learn More</a> <span class="hide" id="learnmoretext">Here is some more text about this fun thing!</span></p>
-					<img src="images/ad-unit.png" alt="Ad Unit">
-				</aside>
 			</div>
 		</section>
-
-		<aside id="bottom-cta">
-			<a class="button blue" href="#">Sign Up Now!</a>
-		</aside>
-		<footer>
-			<h4 class="logo">Relaxr</h4>
-
-			<ul>
-				<li><a href="#"><img src="images/twitter.png" alt="Twitter logo"></a></li>
-				<li><a href="#"><img src="images/facebook.png" alt="Facebook logo"></a></li>
-			</ul>
-
-			<p class="copyrght">Copyright 2015. Relaxr.</p>
-		</footer> --> 
 		<script src="js/script.js"></script>
 	</body>
 </html>

@@ -122,6 +122,9 @@ button {
   display: none;
 }
 
+.show {
+  display: inline-block;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
@@ -131,6 +134,7 @@ button {
     display: flex;
     width: 95%;
     margin: auto;
+/*    display:none; */  
 }
 
 .flex-container-l1 img {
@@ -154,6 +158,7 @@ button {
   flex-direction: column;
     width: 13.4%;
     margin: 10px;
+/*    display:none;*/
 }
 
 .flex-container-family button {
@@ -238,3 +243,54 @@ button {
   margin-bottom:2px;
   text-align: left;
 }
+
+.sibling {
+  /*background-color: red;*/
+  display:none; 
+}
+
+.child {
+ /* background-color: purple;*/
+  display:none;
+}
+
+.grandchild {
+  display:none;
+}
+
+.flex-container-family button {
+  display: none;
+}
+
+.flex-container-children .bigpic, .flex-container-grandchild .bigpic {
+  width: 150px;
+  height: 150px;
+  border: 2px solid #203562;
+  margin-right: 5px;
+  margin-left:5px;
+}
+
+.flex-container-children .bigtext, .flex-container-grandchild .bigtext {
+  font-size:35px;
+  color:#203562;
+  padding-left: 40;
+}
+
+div.flex-container-family.enrique .child {
+}
+
+div.flex-container-family.meno .child, .grandchild {
+}
+
+div.flex-container-family.ludy .child {
+}
+
+div.flex-container-family.patricia .child {
+}
+
+div.flex-container-family.dino .child, .grandchild {
+}
+
+div.flex-container-family.rudy .child {
+}
+
